@@ -63,6 +63,7 @@ Every push to the main branch triggers the GitHub Actions pipeline to:
 ## ☁️ Deployment via Terraform
 
 1. Set up AWS credentials
+    - make sure you have aws cli installed
 
    ```bash
    aws configure
