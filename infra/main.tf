@@ -60,7 +60,10 @@ resource "aws_instance" "visitor_ec2" {
         "sudo apt install -y docker.io",
         "sudo systemctl enable docker",
         "sudo systemctl start docker",
-        "sudo docker run -d -p 80:3000 ghcr.io/tennis-kumar/visitor-counter-service:latest"
+        "sudo usermod -aG docker ubuntu",
+        "sudo docker network create visitor-network",
+        "sudo docker run -d --network visitor-network --name redis redis",
+        "sudo docker run -d --network visitor-network -e REDIS_URL=redis://redis:6379 -p 80:3000 ghcr.io/tennis-kumar/visitor-counter-service:latest"
      ]
   }
 }
