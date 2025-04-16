@@ -1,0 +1,26 @@
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Terraform crash logs
+crash.log
+
+# Terraform variable override files (custom secrets or env-specific config)
+*.tfvars
+
+# Local Terraform config
+.terraform/
+.terraform.lock.hcl
+
+# IDE/editor files
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+.vscode/
+.idea/
+
+# ssh keys
+ec2_key
+ec2_key.pub
