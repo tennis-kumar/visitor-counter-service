@@ -4,12 +4,12 @@ A simple Node.js application that counts and displays the number of visitors. Th
 
 ## 🚀 Tech Stack
 
-- **Node.js** + **Express** — Web server
-- **Redis** — In-memory store for tracking visits
-- **Docker** — Containerization
-- **GitHub Actions** — CI for Docker builds
-- **Terraform** — Infrastructure as Code (IaC)
-- **AWS EC2** — Hosting the application
+- <img src="https://nodejs.org/static/images/favicons/favicon.ico" width="16" height="16"> **Node.js** + <img src="https://expressjs.com/images/favicon.png" width="16" height="16"> **Express** — Web server
+- <img src="https://redis.io/images/favicon.png" width="16" height="16"> **Redis** — In-memory store for tracking visits
+- <img src="https://www.docker.com/wp-content/uploads/2023/04/cropped-Docker-favicon-32x32.png" width="16" height="16"> **Docker** — Containerization
+- <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"> **GitHub Actions** — CI for Docker builds
+- <img src="https://www.terraform.io/favicon.ico" width="16" height="16"> **Terraform** — Infrastructure as Code (IaC)
+- <img src="https://aws.amazon.com/favicon.ico" width="16" height="16"> **AWS EC2** — Hosting the application
 
 ## 🧠 How It Works
 
@@ -63,7 +63,6 @@ Every push to the main branch triggers the GitHub Actions pipeline to:
 ## ☁️ Deployment via Terraform
 
 1. Set up AWS credentials
-    - make sure you have aws cli installed
 
    ```bash
    aws configure
@@ -111,4 +110,4 @@ Backend | Cloud | DevOps Enthusiast
 
 ## 📄 License
 
-[MIT](https://opensource.org/licenses/MIT) © 2025 Tennis Kumar
+[MIT](https://opensource.org/licenses/MIT) © 2025 tennis-kumar
